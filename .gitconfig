@@ -1,0 +1,4 @@
+[https]
+	proxy = https://github.com/GitCWoo/WEB:8080
+[user]
+	email = cksdn908@naver.com
