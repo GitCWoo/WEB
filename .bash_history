@@ -89,3 +89,155 @@ git config
 git config --list
 sudo yum install -y httpd24 php72 mysql57-server php72-mysqlnd
 exit
+apache2 -v
+git clone https://github.com/GitCWoo/WEB
+git config --global https.proxy https://github.com/GitCWoo/WEB
+git clone https://github.com/GitCWoo/WEB
+git config --global https.proxy https://github.com/GitCWoo/WEB:8080
+git clone https://github.com/GitCWoo/WEB
+git config --global --unset http.proxy
+git clone https://github.com/GitCWoo/WEB
+git push origin master
+git remote add origin remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+오브젝트 묶음 푸는 중: 100% (3/3), 완료.
+git remote add origin https://github.com/GitCWoo/WEB
+git push origin master
+git init
+git add
+git add .
+git commit -m "test"
+git config --global user.email "you@example.com"
+git config --global user.email "cksdn908@naver.com"
+git config --global user.email "you@example.com"
+git config --global user.email "cksdn908@naver.com"
+git config user.name "GtiCWoo"
+git remote add origin "https://github.com/GitCWoo/WEB"
+git push -u origin master
+git add index.html
+git add .
+git commit -m "test"
+git push -u origin master
+cd /var/www/html
+git add index.html
+exit
+cd /var/www/html
+git add index.html
+cd
+git commit -m "test2"
+git add index.html
+git add /var/www/html/index.html
+git add /var/www/index.html
+git add index.html
+git add /var/index.html
+cat index.html
+find index.html
+find -name index.html
+find / -name index.html
+git add /var/www/html/index.html
+git push origin master
+git add index.html
+cd var/www/html
+cd /var/www/html
+vi index.html
+cd var/www/html
+cd /var/www/html
+vi index.html
+yum install libapache-mod-jk
+nano /etc/apche2/workers.properties
+java --version
+sudo yum list | grep jdk
+sudo yum install java-1.8.0-openjdk
+sudo yum install java-1.8.0-openjdk-devel.x86_64 -y
+echo $JAVA_HOME
+which java
+readlink -f /usr/bin/java
+vi /etc/profile
+source /etc/profile
+echo $JAVA_HOME
+echo $PATH
+echo $CLASSPATH
+vi HelloWorld.java
+javac HelloWorld.java
+java cp. HelloWorld
+java -cp . HelloWorld
+wget -c http://mirror.navercorp.com/apache/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.46-src.tar.gz
+exit
+mv tomcat-connectors-1.2.48-src/ /usr/local/src
+wget https://downloads.apache.org/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.48-src.tar.gz
+tar xvf tomcat-connectors-1.2.48-src.tar.gz
+mv tomcat-connectors-1.2.48-src/ /usr/local/src
+cd /usr/local/src/tomcat-connectors-1.2.46-src/native/
+cd /usr/local/src/tomcat-connectors-1.2.48-src/native/
+yum -y install gcc gcc-c++ httpd-devel
+./buildconf.sh
+./configure --with-apxs=/usr/bin/apxs
+make
+ls /etc/httpd/modules/ | grep mod_jk
+make
+make install
+ls /etc/httpd/modules/ | grep mod_jk
+vi /etc/httpd/conf/httpd.conf
+vim /etc/httpd/conf/httpd.conf
+ls index.html
+ls -name index.html
+find index.html
+find -name index.html
+vim /etc/httpd/conf/httpd.conf
+vi /etc/httpd/conf/workers.properties
+vim /etc/httpd/conf/httpd.conf
+ls
+pwd
+cd /etc/httpd/conf/
+ls
+cd httpd.conf
+ld
+cd ..
+ls
+cd conf.d
+ls
+d ..
+cd ..
+ls
+cd conf.modules.d
+ls
+sudo vim mode_jk.conf
+cd ..
+ls
+cd conf
+ls
+vim workers.properties
+sudo service httpd restart
+ls
+vim httpd.conf
+service httpd restart
+sudo vim /etc/httpd/conf.modules.d/mod_jk.conf
+ls
+cd ..
+ls
+cd conf.modules.d
+ls
+mv mode_jk.conf mod_jk.conf
+ls
+service httpd restart
+systemctl status httpd.service
+ls
+cd ..
+ls
+cd conf
+ls
+vim httpd.conf
+service httpd restart
+service httpd start
+vi /etc/httpd/conf.modules.d/mod_jk.conf
+vi /etc/httpd/conf/workers.properties
+cd
+ls
+exit
+ls
+cd tomcat-connectors-1.2.48-src.tar.gz
+ls
+tar xyz tomcat-connectors-1.2.48-src.tar.gz
+cd WE
+cd WEB
+ls
+cd ..

@@ -1,0 +1,315 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 8.1.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# Viminfo version
+|1,4
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# 명령 행 히스토리 (새것부터 오래된 것 순):
+:wq
+|2,0,1611219467,,"wq"
+:q
+|2,0,1611219365,,"q"
+:q!
+|2,0,1611218950,,"q!"
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 행 히스토리 (새것부터 오래된 것 순):
+
+# 디버그 행 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+""1	LINE	0
+	LoadModule jk_module modules/mod_jk.so
+|3,1,1,1,1,0,1611218957,"LoadModule jk_module modules/mod_jk.so"
+"2	LINE	0
+	</VirtualHost>
+|3,0,2,1,1,0,1611218956,"</VirtualHost>"
+"3	LINE	0
+	    JkMount /* tomcat
+|3,0,3,1,1,0,1611218955,"    JkMount /* tomcat"
+"4	LINE	0
+	    CustomLog "logs/yoonchanwoo.com-access.log" common
+|3,0,4,1,1,0,1611218954,"    CustomLog \"logs/yoonchanwoo.com-access.log\" common"
+"5	LINE	0
+	    ErrorLog "logs/yoonchanwoo.com-error.log"
+|3,0,5,1,1,0,1611218954,"    ErrorLog \"logs/yoonchanwoo.com-error.log\""
+"6	LINE	0
+	    ServerName yoonchanwoo.com
+|3,0,6,1,1,0,1611218954,"    ServerName yoonchanwoo.com"
+"7	LINE	0
+	    DocumentRoot "/var/www/html/index.html"
+|3,0,7,1,1,0,1611218953,"    DocumentRoot \"/var/www/html/index.html\""
+"8	LINE	0
+	<VirtualHost *:80>
+|3,0,8,1,1,0,1611218953,"<VirtualHost *:80>"
+"9	LINE	0
+	    DocumentRoot "/var/www/html/index.html"
+|3,0,9,1,1,0,1611218940,"    DocumentRoot \"/var/www/html/index.html\""
+
+# 파일 마크:
+'0  98  0  /etc/httpd/conf/httpd.conf
+|4,48,98,0,1611219467,"/etc/httpd/conf/httpd.conf"
+'1  1  0  /etc/httpd/conf.modules.d/mod_jk.conf
+|4,49,1,0,1611219365,"/etc/httpd/conf.modules.d/mod_jk.conf"
+'2  364  0  /etc/httpd/conf/httpd.conf
+|4,50,364,0,1611219291,"/etc/httpd/conf/httpd.conf"
+'3  364  0  /etc/httpd/conf/httpd.conf
+|4,51,364,0,1611219291,"/etc/httpd/conf/httpd.conf"
+'4  3  73  /etc/httpd/conf/workers.properties
+|4,52,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+'5  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,53,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+'6  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,54,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+'7  364  0  /etc/httpd/conf/httpd.conf
+|4,55,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+'8  364  0  /etc/httpd/conf/httpd.conf
+|4,56,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+'9  364  4  /etc/httpd/conf/httpd.conf
+|4,57,364,4,1611218950,"/etc/httpd/conf/httpd.conf"
+
+# 점프목록 (새것이 먼저):
+-'  98  0  /etc/httpd/conf/httpd.conf
+|4,39,98,0,1611219467,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611219442,"/etc/httpd/conf/httpd.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mod_jk.conf
+|4,39,1,0,1611219365,"/etc/httpd/conf.modules.d/mod_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mod_jk.conf
+|4,39,1,0,1611219365,"/etc/httpd/conf.modules.d/mod_jk.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611219291,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611219291,"/etc/httpd/conf/httpd.conf"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  3  73  /etc/httpd/conf/workers.properties
+|4,39,3,73,1611219253,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219217,"/etc/httpd/conf/workers.properties"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,0,1611219216,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  1  0  /etc/httpd/conf/workers.properties
+|4,39,1,0,1611219213,"/etc/httpd/conf/workers.properties"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  6  25  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,6,25,1611219189,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  1  0  /etc/httpd/conf.modules.d/mode_jk.conf
+|4,39,1,0,1611219052,"/etc/httpd/conf.modules.d/mode_jk.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+-'  364  0  /etc/httpd/conf/httpd.conf
+|4,39,364,0,1611218959,"/etc/httpd/conf/httpd.conf"
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> /etc/httpd/conf/httpd.conf
+	*	1611219466	0
+	"	98	0
+	.	364	0
+	+	364	0
+	+	364	88
+	+	364	41
+	+	364	29
+	+	364	30
+	+	364	75
+	+	364	37
+	+	362	0
+	+	363	2
+	+	364	0
+
+> /etc/httpd/conf.modules.d/mod_jk.conf
+	*	1611219365	0
+	"	1	0
+
+> /etc/httpd/conf/workers.properties
+	*	1611219252	0
+	"	3	73
+	^	3	74
+	.	3	73
+	+	3	73
+
+> /etc/httpd/conf.modules.d/mode_jk.conf
+	*	1611219215	0
+	"	6	0
+	^	6	26
+	.	6	25
+	+	6	25
