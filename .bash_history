@@ -241,3 +241,186 @@ cd WE
 cd WEB
 ls
 cd ..
+git -u origin master
+git add .
+git commit -m "update"
+git -u origin master
+gir push origin master
+git push origin master
+ls
+cd 
+cd tomcat-connectors-1.2.48-src
+ls
+cd tomcat-connectors-1.2.48-src.tar.gz
+ls
+lstar xvfz tomcat-connectors-1.2.xx-src.tar.gz
+tar xvfz tomcat-connectors-1.2.48-src.tar.gz
+cd tomcat-connectors-1.2.48-src
+cd native
+sudo yum install gcc
+sudo yum install httpd-devel
+which apxs
+./configure --with-apxs=/usr/bin/apxs
+make
+sudo make install
+cd /usr
+ls
+cd share
+cd httpd\
+ls
+cd ..
+ls
+cd httpd
+ls
+cd ,,
+cd ..
+cd etc
+cd httpd
+ls
+cd ..
+ls
+cd local
+cd httpd
+ls
+cd ..
+sudo service grafana-server start
+sudo mkdir monitoring
+cd monitoring
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+tar -zxvf node_exporter-1.0.1.linux-amd64.tar.gz
+rm node_exporter-1.0.1.linux-amd64.tar.gz
+ls
+rm node_exporter-1.0.1.linux-amd64.tar.gz
+sudo mv node_exporter-1.0.1.linux-amd64/node_exporter
+sudo mv node_exporter-1.0.1.linux-amd64/ node_exporter
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps/ef
+
+ls
+cd node_exporter
+ls
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+cd
+sudo vi /etc/systemd/system/monitoring.service
+systemctl enable monitoring
+cd /etc/systemd/system/
+ks'
+
+
+ls
+vim monitoring.service
+sudo systemctl start monitoring
+ps -ef | grep node
+curl localhost:9100/metrics 
+iptables -nL
+cd
+iptables -nL
+curl localhost:9100/metrics
+cd /node_exporter
+cd node_exporter
+ls
+cd monitoring
+cd
+cd monitoring
+ls
+cd node_exporter
+curl localhost:9100/metrics
+cd
+ipconfig
+-ipconfig
+cat /etc/hosts
+hostname -l
+hostname -I
+ip addr show
+ifconfig
+curl localhost:9101/metrics
+curl localhost:9100/metrics
+ps -ef | grep pro
+ps -ef | grep node
+netstat -an | grep 9101
+netstat -an | grep 9100
+cd monitoring/node_exporter/
+ls
+kill -9 4482
+history
+history | grepo node
+sudo mkdir monitoring
+cd monitoring
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+tar -zxvf node_exporter-1.0.1.linux-amd64.tar.gz
+rm node_exporter-1.0.1.linux-amd64.tar.gz
+ls
+rm node_exporter-1.0.1.linux-amd64.tar.gz
+sudo mv node_exporter-1.0.1.linux-amd64/node_exporter
+sudo mv node_exporter-1.0.1.linux-amd64/ node_exporter
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps/ef
+
+ls
+cd node_exporter
+ls
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+cd
+sudo vi /etc/systemd/system/monitoring.service
+systemctl enable monitoring
+cd /etc/systemd/system/
+ks'
+
+
+ls
+vim monitoring.service
+sudo systemctl start monitoring
+ps -ef | grep node
+curl localhost:9100/metrics 
+iptables -nL
+cd
+iptables -nL
+curl localhost:9100/metrics
+cd /node_exporter
+cd node_exporter
+ls
+cd monitoring
+cd
+cd monitoring
+ls
+cd node_exporter
+curl localhost:9100/metrics
+cd
+ipconfig
+-ipconfig
+cat /etc/hosts
+hostname -l
+hostname -I
+ip addr show
+ifconfig
+curl localhost:9101/metrics
+curl localhost:9100/metrics
+ps -ef | grep pro
+ps -ef | grep node
+netstat -an | grep 9101
+netstat -an | grep 9100
+cd monitoring/node_exporter/
+ls
+kill -9 4482
+history
+history | grepo node
+history | grep node
+./node_exporter > /dev/null 2>&1 &
+ps -ef | grep node
+kill -9 4967
+ps -ef | grep node
+./node_exporter > /dev/null 2>&1 &
+netstat -an | grep 9100
+ifconfig
+ps -ef | grep node
+kill 5106
+./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+git add .
+git commit -m "monitoring"
+git push origin master
+history
